@@ -1,0 +1,99 @@
+body ,div ,p ,img ,ul ,ul li ,input ,textarea ,select ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{margin:0; padding:0;}
+html ,body ,div ,p ,img ,ul ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{display:block;}
+a{color:inherit; line-height:inherit; text-decoration:none; border:none; display:inline; border-radius:0; overflow:hidden;}
+div{margin:0 auto; height:auto; overflow:hidden; background-color:transparent;}
+a ,p ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{font-family: "Microsoft YaHei"}
+img{overflow:hidden; line-height:1; font-size:0; border:none; display:block;}
+
+.header .links{ border-bottom: 1px solid #DDDDDD; padding: 8px 0;}
+.links .divLimit{width: 1200px;}
+.links .word{ left: 50%; float: right;}
+.links .word li{float: left; font-size: 14px; padding: 0 10px; }
+.links .word li a{ color: #666666; cursor: pointer; }
+.links .word li a:hover{color: #4975cc;}
+.links .word .rightBorder{border-right: 1px solid #DDDDDD;}
+
+.header .container{height: 100px; width: 1200px;}
+.container .logo{height: 99px; float: left;}
+.container .from-search{width: 500px; margin: 20px 0 0 70px; float: left; }
+.from-search .from{height: 38px; width: 494px; border: 3px solid #4975cc; position: relative;}
+.from-search .from .search{height:34px; width: 430px; font-size: 15px; position: absolute; border: none; outline: none;}
+.from-search .from .button{height: 38px; width: 63px; position: absolute; right: 0; background-color: #4975cc;border: none;
+outline: none; cursor: pointer; color: white; font-size: 18px;}
+.from-search ul{padding-top: 8px;}
+.from-search ul li{float: left; padding-right: 10px; font-size: 13px; color: #666666; }
+.from-search ul li a:hover{color: #4975cc;}
+.container .imgEco{height: 99px; float: right;}
+
+.container .navigate{height: 42px; width: 100%; background-color: #4975cc;}
+.navigate .navigateTxi{width: 1200px;height: 42px;}
+.navigate .navigateTxi .allItem{padding: 0 50px; background-color: #3F62BD;  display: block; float: left; line-height: 42px;}
+.navigate .navigateTxi a{line-height: 42px; display: block;float: left; padding: 0 20px;cursor: pointer; color: white;}
+.navigate .navigateTxi a:hover{background-color: #213468;}
+
+.container .body{width: 1200px;}
+.body .item{height: 250px; width: 195px; border: 1px solid #DDDDDD; float: left; border-top:none; }
+.body .item a{display: block; padding: 6px 0 6px 10px; font-size: 14px; color: #666666;}
+.body .item a:hover{color: white; background-color: #4975cc;}
+
+.body .banner{ height: 250px; width: 700px; margin: 2px 0 0 2px; float: left;}
+.body .rightBanner{height: 250px; width: 290px; margin: 2px 0 0 2px;float: left;}
+.body .rightBanner .topImg{width: 300px; height: 150px;}
+.body .rightBanner .bottomImg{width: 300px; height: 100px; margin-top: 2px; }
+
+.body .welProduct{clear: both; width: 1000px; height: 550px; }
+.welProduct .title{color: #666666; font-size: 24px; text-align: center; padding: 20px 0; }
+.welProduct .product{height: 448px; width: 230px; float: left; position: relative; overflow: visible; margin: 0 10px;}
+.welProduct .product .productImg{width: 224px; height: 224px; border: 3px solid #DDDDDD; cursor: pointer;}
+.welProduct .product .productModel,.welProduct .product .productNum,.welProduct .product .productPrice{font-size: 14px; padding: 5px 0 0 10px;}
+.more{padding-top: 20px !important;}
+
+.welProduct .product .afterPro{position: absolute; height: 448px; width: 230px; display: none; background-color: white; border: 2px solid #DDDDDD;
+box-shadow: 3px 3px 10px #666666; left: -2px; top: -2px;}
+.afterPro .list{padding: 10px 0; border-bottom: 1px dashed #666666; width: 200px;}
+.afterPro .list .littleImg{height: 55px; width:55px; float: left; margin: 0 2px; cursor: pointer;}
+.afterPro .list span{float: left; display: block; line-height: 60px; width: 10px; text-align: center; font-size: 20px; cursor: pointer;}
+
+.afterPro .jion{width: 200px; background-color: #00a0e9; border: 3px solid #DDDDDD; padding: 12px 0; text-align: center;
+display: block; margin: 10px auto; cursor: pointer;}
+.welProduct .product:hover .afterPro{display: block;}
+
+.body .lamp{width: 1200px; height: 530px; padding-top:20px; }
+.lamp .lampTitle{width: 115px; height: 40px; border: 1px solid #DDDDDD; border-bottom: none;  float: left; position: relative; overflow: visible;}
+.lamp .lampTitle img{display: block; width: 55px;position: absolute; border: none; top: -15px; overflow: visible;}
+.lamp .lampTitle p{position: absolute; top: 13px; left: 30px; white-space: nowrap;}
+.lamp .lampTitle p span{color: red; font-size: 17px;}
+
+.lamp .detail{border: 1px solid #DDDDDD; border-bottom: none; float: right;}
+.lamp .detail li{float: left; font-size: 14px; position: relative;}
+.lamp .detail .line{position: absolute; width: 1px; height: 18px; background-color: #DDDDDD; right: -1px; top: 50%; margin-top: -9px;}
+.lamp .detail li a{padding: 11px 13px; display: block; cursor: pointer; white-space: nowrap;}
+
+.lamp .detail .select{border: 1px solid #ff0000; border-bottom: 1px solid #DDDDDD; border-top: 2px solid #ff0000;}
+.lamp .detail .selectA{position: relative; top: 2px; padding: 7px 13px 14px 13px; background-color: white;}
+.lamp .detail .none{display: none;}
+
+.lamp .lampModel{width: 1200px; height: 475px; border-left: 1px solid #DDDDDD; border-top: 1px solid #ff0000; clear: both; display: block;}
+
+.lamp .lampModel li{width: 179px; height: 220px; padding: 8px 10px; float: left; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD;cursor: pointer;}
+.lamp .lampModel li p{font-size: 13px; padding-top: 10px; }
+.lamp .lampModel .red{color: #ff0000;}
+.lamp .lampModel li:hover .black{color: #ff0000;}
+
+.lamp .lampModel img{width: 180px; height: 160px;}
+.lamp .lampModel .little{width: 178px !important;}
+
+.footer{ height: 250px; }
+.footer .server{height: 200px; border-top: 2px solid #DDDDDD; border-bottom: 2px solid #DDDDDD;}
+.footer .server .list{width: 1200px; border-top: 1px solid #DDDDDD; margin-top: 10px;}
+.server .list ul{float: left; padding: 10px 55px;}
+.server .list p{font-size: 16px; display: block; padding-bottom: 10px;}
+.server .list a{font-size: 13px;}
+.server .list a:hover{color: #666666;}
+
+.server .list .limit{width: 250px; padding: 10px 0 10px 55px;}
+
+.footer .company{padding-top: 10px; text-align: center; }
+.footer .company a{font-size: 13px; padding: 0 8px; border-right: 1px solid #DDDDDD;}
+.footer .company .none{border-right: none !important;}
+

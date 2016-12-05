@@ -1,0 +1,70 @@
+body ,div ,p ,img ,ul ,ul li ,input ,textarea ,select ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{margin:0; padding:0;}
+html ,body ,div ,p ,img ,ul ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{display:block;}
+a{color:inherit; line-height:inherit; text-decoration:none; border:none; display:inline; border-radius:0; overflow:hidden; font-size: 14px;}
+div{margin:0 auto; height:auto; overflow:hidden; background-color:transparent;}
+a ,p ,span ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{font-family: "Microsoft YaHei"}
+img{overflow:hidden; line-height:1; font-size:0; border:none; display:block;}
+
+
+
+.header{background-color: #F5F5F5; height: 40px; line-height: 40px;}
+.header .navigate{width: 1200px;}
+.navigate .nu{float: right;}
+.navigate .nu li{float: left; margin: 0 20px;}
+.navigate .nu li a:hover{color: #4975cc;}
+
+.container{width: 1200px;}
+.container .title{height: 40px; line-height: 40px; padding: 30px 0;}
+.container .title .lo{font-size: 40px; font-weight: bold; color: #435B5E;}
+.container .title .list{float: right; }
+.title .list a{margin-left: 40px; padding: 5px 40px; background-color: #EEF2FE;}
+.container .tit{position: relative;}
+.tit .line{height: 1px; width: 1080px; background-color: #E2E2E2; display: block; position: absolute; top:50%; right: 0;}
+.com .detail{width: 890px; height: 340px; background-color: #F5F5F5; margin: 20px 0 0 50px; padding: 10px 20px;}
+.com .detail .item{padding: 0 0 18px 100px;}
+.com .detail .item input{border: none; outline: none; height: 30px; padding-left: 6px;}
+.com .detail .item span{font-size: 14px; color: #8F9199;}
+
+
+.detail .item-name{margin-left: -80px;}
+.detail .item-devision{margin-left: -40px;}
+.detail .item-street{ position: relative;}
+.detail .item-phone{margin-left: -70px;}
+.detail .item-postcode{margin-left: -70px;}
+
+.detail .item-name input{width: 150px;}
+.detail .item-devision input{width: 250px;}
+.detail .item-street span{position: absolute; top: 0; margin-left: -40px;}
+.detail .item-street textarea{width: 300px; height: 80px; padding: 5px; border: none; outline: none; resize: none;}
+.detail .item-phone .pl{width: 60px;}
+.buy{width: 140px; height: 36px; background-color: #DFE5F7; cursor: pointer; display: block; text-align: center; line-height: 36px; margin: 0 auto;}
+.buy:hover{background-color: #C6D3FF;}
+
+.container .menu{padding-top: 50px;}
+.menu .item{float: left; margin: 0 3px; text-align: center;}
+.menu .item .word{padding: 20px 97px; border-bottom: 1px solid #B2D1FF;}
+.menu .item-bab .bImg{width: 180px; margin: 10px auto;}
+.menu .item-bab .bp{width: 200px; font-size: 14px; margin: 0 auto; height: 57px; overflow: hidden; padding-bottom: 20px;}
+.menu .item-pri .pri, .item-num .button, .item-tra .tra,.item-add .pri{margin-top: 100px;}
+.item-num .button .tx{width: 20px;height: 20px; border: none; outline: none; text-align: center;}
+.item-num .button .but{width: 15px; height: 15px; border: none; outline: none; cursor: pointer; }
+.item-tra span{font-size: 14px;}
+.menu .pay{border-top: 1px solid #E2E2E2; text-align: right; padding: 50px 0;}
+.menu .pay .money{font-size: 18px; padding-bottom: 20px;}
+.menu .pay .con{float: right;}
+
+.footer{ height: 250px; }
+.footer .server{height: 200px; border-top: 2px solid #DDDDDD; border-bottom: 2px solid #DDDDDD;}
+.footer .server .list{width: 1200px; border-top: 1px solid #DDDDDD; margin-top: 10px;}
+.server .list ul{float: left; padding: 10px 55px;}
+.server .list p{font-size: 16px; display: block; padding-bottom: 10px;}
+.server .list a{font-size: 13px;}
+.server .list a:hover{color: #5F81CD;}
+
+.server .list .limit{width: 250px; padding: 10px 0 10px 55px;}
+
+.footer .company{padding-top: 10px; text-align: center; }
+.footer .company a{font-size: 13px; padding: 0 8px; border-right: 1px solid #DDDDDD;}
+.footer .company .none{border-right: none !important;}
+
+

@@ -1,0 +1,55 @@
+body ,div ,p ,img ,ul ,ul li ,input ,textarea ,select ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{margin:0; padding:0;}
+html ,body ,div ,p ,img ,ul ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{display:block;}
+a{color:inherit; line-height:inherit; text-decoration:none; border:none; display:inline; border-radius:0; overflow:hidden;}
+div{margin:0 auto; height:auto; overflow:hidden; background-color:transparent;}
+a ,p ,span ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{font-family: "Microsoft YaHei"}
+img{overflow:hidden; line-height:1; font-size:0; border:none; display:block;}
+
+
+
+.header{background-color: #F5F5F5; height: 40px; line-height: 40px;}
+.header .navigate{width: 1200px;}
+.navigate .nu{float: right;}
+.navigate .nu li{float: left; margin: 0 20px;}
+.navigate .nu li a:hover{color: #4975cc;}
+
+.container{width: 1200px; padding-bottom: 100px;}
+.container .title{height: 40px; line-height: 40px; padding: 30px 0;}
+.container .title .lo{font-size: 40px; font-weight: bold; color: #435B5E;}
+.container .title .list{float: right; }
+.title .list a{margin-left: 40px; padding: 5px 40px; background-color: #EEF2FE;}
+.container .pro{padding: 100px 0;}
+.pro .left{float: left; width: 200px; padding-left: 50px;}
+.pro .cen{padding-left: 100px; width: 500px; float: left;}
+.pro .rig{float: right; margin-right: 30px;}
+
+.pay .tit{position: relative;}
+.pay .tit .line{height: 1px; width: 1080px; background-color: #E2E2E2; display: block; position: absolute; top:50%; right: 0;}
+.pay .item{width: 730px; padding-top: 80px;}
+.item .met{width: 600px; padding: 7px 50px; margin-top: 30px;}
+.item .met .add{float: right; font-size: 10px; border: 1px solid #dfdfdf; padding: 2px 3px;}
+.item .metBor{border: 1px solid #b2d1ff;}
+.item .pass{padding: 50px 0 0 30px;}
+.item .pass .mon{float: right;}
+.item .pass .mon span{color: red;}
+.item .pass input{height: 20px; outline: none; margin-left: 20px;}
+
+.footer{ height: 250px; }
+.footer .server{height: 200px; border-top: 2px solid #DDDDDD; border-bottom: 2px solid #DDDDDD;}
+.footer .server .list{width: 1200px; border-top: 1px solid #DDDDDD; margin-top: 10px;}
+.server .list ul{float: left; padding: 10px 55px;}
+.server .list p{font-size: 16px; display: block; padding-bottom: 10px;}
+.server .list a{font-size: 13px;}
+.server .list a:hover{color: #5F81CD;}
+
+.server .list .limit{width: 250px; padding: 10px 0 10px 55px;}
+
+.footer .company{padding-top: 10px; text-align: center; }
+.footer .company a{font-size: 13px; padding: 0 8px; border-right: 1px solid #DDDDDD;}
+.footer .company .none{border-right: none !important;}
+
+
+
+
+
+

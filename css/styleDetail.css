@@ -1,0 +1,136 @@
+body ,div ,p ,img ,ul ,ul li ,input ,textarea ,select ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{margin:0; padding:0;}
+html ,body ,div ,p ,img ,ul ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{display:block;}
+a{color:inherit; line-height:inherit; text-decoration:none; border:none; display:inline; border-radius:0; overflow:hidden;}
+div{margin:0 auto; height:auto; overflow:hidden; background-color:transparent;}
+a ,p ,span ,ul li ,h1 ,h2 ,h3 ,h4 ,h5 ,h6{font-family: "Microsoft YaHei"}
+img{overflow:hidden; line-height:1; font-size:0; border:none; display:block;}
+
+.header .links{ border-bottom: 1px solid #DDDDDD; padding: 8px 0;}
+.links .divLimit{width: 1200px;}
+.links .word{ left: 50%; float: right;}
+.links .word li{float: left; font-size: 14px; padding: 0 10px; }
+.links .word li a{ color: #666666; cursor: pointer; }
+.links .word li a:hover{color: #4975cc;}
+.links .word .rightBorder{border-right: 1px solid #DDDDDD;}
+
+.header .container{height: 100px; width: 1200px;}
+.container .logo{height: 99px; float: left;}
+.container .from-search{width: 500px; margin: 20px 0 0 70px; float: left; }
+.from-search .from{height: 38px; width: 494px; border: 3px solid #4975cc; position: relative;}
+.from-search .from .search{height:34px; width: 430px; font-size: 15px; position: absolute; border: none; outline: none;}
+.from-search .from .button{height: 38px; width: 63px; position: absolute; right: 0; background-color: #4975cc;border: none;
+    outline: none; cursor: pointer; color: white; font-size: 18px;}
+.from-search ul{padding-top: 8px;}
+.from-search ul li{float: left; padding-right: 10px; font-size: 13px; color: #666666; }
+.from-search ul li a:hover{color: #4975cc;}
+.container .imgEco{height: 99px; float: right;}
+
+.container .navigate{height: 42px; width: 100%; background-color: #4975cc;}
+.navigate .navigateTxi{width: 1200px;height: 42px;}
+.navigate .navigateTxi .allItem{padding: 0 50px; background-color: #3F62BD;  display: block; float: left; line-height: 42px;}
+.navigate .navigateTxi a{line-height: 42px; display: block;float: left; padding: 0 20px;cursor: pointer; color: white;}
+.navigate .navigateTxi a:hover{background-color: #213468;}
+
+.container .body{width: 1200px; padding-bottom: 30px;}
+.body .head{padding: 10px 20px; color: #8F9199; font-size: 14px;}
+.body .nav{height: 40px; width: 1200px; background-color: #C9C9C9; line-height: 40px;}
+.body .nav p{margin-left: 20px;}
+
+.body .content{height: 500px; padding: 10px 0 10px 15px;}
+.content .theImg{height: 450px; width: 350px; float: left;}
+.content .theImg .bigImg{height: 350px;}
+.content .theImg .list{height: 60px; line-height: 60px; padding: 10px 0;}
+.theImg .left{float: left; cursor: pointer;}
+.theImg .right{float: right; cursor: pointer;}
+.theImg .list ul{height: 60px; width: 320px; margin: 0 auto;}
+.theImg .list ul li {height: 58px; float: left; margin: 0 3px;}
+.theImg .list ul li img{height: 58px; width: 58px;}
+.theImg .word{font-size: 14px; color: #8F9199;}
+.theImg .mar{margin-right: 30px;}
+.theImg a:hover{color: #00a0e9;}
+
+.content .detail{height: 450px; width: 550px; float: left; margin-left: 20px;}
+.detail .title{padding: 25px 0;}
+.detail .price{ width: 600px; background-color: #F7F7F7; font-size: 14px;}
+.detail .price p{padding: 10px 0;}
+.detail .price p span{color: red;}
+.detail .price .sale{display: inline-block; padding-right: 30px;border-right: 1px solid #8F9199; color: #C6C6C6;}
+.detail .price .com{display: inline-block; padding-left: 30px; color: #C6C6C6;}
+.detail .price a{margin: 15px 0; font-size: 14px;}
+.detail .dc{padding: 30px 0; font-size: 14px;}
+.detail .df{padding-bottom: 46px; font-size: 14px; border-bottom: 2px dashed #8F9199;}
+.detail .shop{padding-top: 25px;}
+.detail .shop .tx{width: 35px; height: 35px; text-align: center; font-size: 16px; float: left; border: none; outline: none; background-color: #F0F0F0;}
+.detail .shop .button{height: 35px; width: 20px; float: left; position: relative;}
+.detail .shop .button input{border: none; outline: none; width: 20px; height: 17px;position: absolute; cursor: pointer;}
+.detail .shop .button input:nth-child(2){bottom: 0;}
+.detail .shop .jion{display: block; height: 35px; width: 130px; background-color: #0075A9; line-height: 35px; text-align: center; margin-left: 100px; cursor: pointer;}
+.detail .shop .jion:hover{color: white;}
+.detail .re{padding-top: 20px; font-size: 14px; }
+
+.content .score{width: 220px; height: 500px; float: right; padding: 10px 10px; border-left:1px solid #EEEEEE; }
+.content .score .top{border-top: 1px solid #595959;}
+.content .score .imgJin{width: 220px; padding: 14px 0;  }
+.content .score .ss{padding: 14px 0; font-size: 14px; }
+.score .sf{padding: 14px 8px;}
+.score .sf .sl{float: left; padding: 0 10px;}
+.score .sf .sr{float: right;}
+.score .sf .sr p{font-size: 14px;}
+.sf .st{font-size: 14px;}
+.sf .sl .sw{font-size: 36px; color: red; display: block;padding: 10px 0;}
+.score .address{padding: 10px 0;}
+.score .address p{font-size: 14px; padding-top: 8px;}
+.score .lk{padding: 10px 0;}
+.score .lk a{display: block; text-align: center; margin: 5px 0; background-color: #F9F9F9; font-size: 14px; color: #525252; padding: 8px 0; cursor: pointer;}
+.score .lk a:hover{background-color: #DCDCDC;}
+
+
+.body .tro{background-color: #4063BD; color: white; text-align: center; padding: 7px 0;}
+.tro a{margin: 0 10px;}
+.body .troWord{border: 1px solid #dfdfdf; width: 1000px;padding: 12px 0;}
+.troWord ul{padding: 0 20px; width: 900px; margin: 0 auto;}
+.troWord ul li{float: left; width: 180px; padding: 2px 20px; font-size: 14px; color: #A3A2A2;}
+.body .troImg{width: 1000px;}
+.troImg img{width: 1000px;}
+.body .evaluate{width: 1000px; margin-top: 20px;}
+.evaluate .title{text-align: center; padding: 12px 0; background-color: #F7F7F7; font-size: 18px; border: 1px solid #EEEEEE;}
+.evaluate .eDetail{padding: 18px 20px; border-bottom: 1px solid #AFAFAF;}
+.eDetail .ef{float: left; margin: 0 40px;}
+.eDetail .ef .pn{font-size: 40px; color: #FF6600;}
+.eDetail .ef .good{width: 230px; position: relative; margin-bottom: 10px;}
+.eDetail .ef .good i{display: block; height: 14px; width: 120px; position: absolute;right: 0; bottom: 0;}
+.ef .good .colorB{background-color: #E0E5FC;}
+.ef .good .colorG{background-color: #F2F2F2;}
+.eDetail .ef .good p{float: left; font-size: 14px;}
+.eDetail .em{position: relative; }
+.eDetail .em .buyer{position: absolute; color: #999999;}
+.eDetail .em .pGood{width: 400px; padding-left: 110px; color: #999999;}
+.eDetail .em .pGood li{float: left; margin: 0 12px 15px 12px; background-color: #EEF1FF; font-size: 13px; padding: 3px 10px;}
+
+.evaluate .custom{width: 890px;}
+.custom .customEva{padding: 50px 30px; border-bottom: 1px solid #AFAFAF;}
+.custom .customEva p{color: #656565; font-size: 14px;}
+.custom .customEva .time{width: 150px; float: left;}
+.custom .customEva .eva{width: 450px; float: left; padding: 0 40px;}
+.custom .customEva .name{width: 150px; float: right;}
+
+
+.footer{ height: 250px; }
+.footer .server{height: 200px; border-top: 2px solid #DDDDDD; border-bottom: 2px solid #DDDDDD;}
+.footer .server .list{width: 1200px; border-top: 1px solid #DDDDDD; margin-top: 10px;}
+.server .list ul{float: left; padding: 10px 55px;}
+.server .list p{font-size: 16px; display: block; padding-bottom: 10px;}
+.server .list a{font-size: 13px;}
+.server .list a:hover{color: #5F81CD;}
+
+.server .list .limit{width: 250px; padding: 10px 0 10px 55px;}
+
+.footer .company{padding-top: 10px; text-align: center; }
+.footer .company a{font-size: 13px; padding: 0 8px; border-right: 1px solid #DDDDDD;}
+.footer .company .none{border-right: none !important;}
+
+
+
+
+
+
